@@ -27,7 +27,7 @@ class Artist
     @songs << song
   end
 
-  def find_or_create_by_name(name)
+  def self.find_or_create_by_name(name)
     if @@all.name.nil?(name)
       Artist.new(name)
     else
