@@ -8,8 +8,8 @@ class MP3Importer
 
   def files
     Dir.chdir(path) do
-      Dir["*.mp3")
-      end
+      Dir["*.mp3"]
+    end
   end
 
 
